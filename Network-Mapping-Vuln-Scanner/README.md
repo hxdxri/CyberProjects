@@ -1,14 +1,13 @@
 # Network Mapping & Vulnerability Scanning Tool
 
 ## Overview
-This project maps a network, scans devices for open ports and services, and identifies potential vulnerabilities using Nmap and Python. It generates structured reports and is designed for educational and practical cyber security use.
+This project provides a local network scanning tool that can identify open ports, running services, and potential vulnerabilities on your local machine or devices within your local network. It uses Nmap and Python to perform security assessments and generate structured reports.
 
 ## Features
-- Network topology mapping (with Cisco Packet Tracer)
-- Automated port and service scanning (Python + Nmap)
+- Local network device discovery
+- Port and service scanning
 - Vulnerability matching for common services
 - Report generation (CSV, PDF)
-- Optional integration with OpenVAS/Nessus
 
 ## Setup Instructions
 1. Clone this repository.
@@ -17,29 +16,40 @@ This project maps a network, scans devices for open ports and services, and iden
    pip install -r requirements.txt
    sudo apt install nmap
    ```
-3. (Optional) Set up Cisco Packet Tracer and export your .pkt file for reference.
 
 ## How to Run the Script
-1. Edit `scan.py` to set your target subnet (default: `192.168.1.0/24`).
-2. Run the scan:
-   ```bash
-   python scan.py
-   ```
-3. Reports will be generated in CSV and (optionally) PDF format.
+The project includes several scanning scripts in the `src` directory:
+
+1. `vulnerability_scanner.py`: Main script for comprehensive vulnerability scanning
+2. `scan_to_console.py`: Basic port scanning with console output
+3. `scan_to_csv.py`: Port scanning with CSV report generation
+4. `scan_with_services.py`: Port scanning with service detection
+
+To run the main vulnerability scanner:
+```bash
+python src/vulnerability_scanner.py
+```
+
+You can modify the target in the script:
+- For scanning your local machine: Use `localhost` or `127.0.0.1`
+- For scanning devices on your local network: Use your local network range (e.g., `192.168.1.0/24`)
 
 ## Sample Outputs
 - `scan_report.csv`: Contains IP, Port, Service, State, and Potential Vulnerability columns.
 - `scan_report.pdf`: (Optional) PDF version of the report.
 
 ## Tool Limitations
-- Only basic vulnerability matching (dictionary-based)
+- Only works on local networks or localhost
 - Requires Nmap to be installed and accessible
-- Network topology design is manual (via Packet Tracer)
-- OpenVAS/Nessus integration is optional and not automated
+- Basic vulnerability matching (dictionary-based)
+- Cannot scan devices outside your local network
 
 ## Files Included
-- `.pkt` file (network topology)
-- Python scripts (`scan.py`, `vuln_services.py`, `report_gen.py`)
+- Python scripts in `src/` directory:
+  - `vulnerability_scanner.py` (main script)
+  - `scan_to_console.py`
+  - `scan_to_csv.py`
+  - `scan_with_services.py`
 - Sample reports
 - `requirements.txt`
 
