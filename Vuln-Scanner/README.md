@@ -1,4 +1,4 @@
-# Network Mapping & Vulnerability Scanning Tool
+# Vulnerability Scanning Tool
 
 ## Overview
 This project provides a local network scanning tool that can identify open ports, running services, and potential vulnerabilities on your local machine or devices within your local network. It uses Nmap and Python to perform security assessments and generate structured reports.
