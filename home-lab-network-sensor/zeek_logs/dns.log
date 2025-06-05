@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2025-05-22-01-41-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1747899650.673133	CNPDeD4PgIVsWjuN4f	192.168.56.1	5353	224.0.0.251	5353	udp	0	-	google-nest-mini-8f423adfd658dd6cba680e65cc94da91._googlecast._tcp.local	1	C_INTERNET	33	SRV	-	-	F	F	F	F	0	-	-	F
+1747899650.674283	CG9OL01mP4DVXp98rl	fe80::332e:5c13:6e02:5af8	5353	ff02::fb	5353	udp	0	-	google-nest-mini-8f423adfd658dd6cba680e65cc94da91._googlecast._tcp.local	1	C_INTERNET	33	SRV	-	-	F	F	F	F	0	-	-	F
+1747899688.663515	CrwvaK2mmSEFnB0zS6	192.168.56.1	5353	224.0.0.251	5353	udp	0	-	_spotify-connect._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1747899688.664151	CqOhSx1uy0qcCMPX66	fe80::332e:5c13:6e02:5af8	5353	ff02::fb	5353	udp	0	-	_spotify-connect._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1747899728.855279	CX1sgd2imGiKUBF7ki	192.168.56.1	5353	224.0.0.251	5353	udp	0	-	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc._dosvc._tcp.local	0.000000	F
+1747899728.858363	CO2XDlSMWzCrEyFOl	fe80::332e:5c13:6e02:5af8	5353	ff02::fb	5353	udp	0	-	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc._dosvc._tcp.local	0.000000	F
+1747899729.117772	CX1sgd2imGiKUBF7ki	192.168.56.1	5353	224.0.0.251	5353	udp	0	0.511269	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc._dosvc._tcp.local	4500.000000	F
+1747899729.120193	CO2XDlSMWzCrEyFOl	fe80::332e:5c13:6e02:5af8	5353	ff02::fb	5353	udp	0	0.511216	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc._dosvc._tcp.local	4500.000000	F
+1747899729.373661	CX1sgd2imGiKUBF7ki	192.168.56.1	5353	224.0.0.251	5353	udp	0	0.259481	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc.local	120.000000	F
+1747899729.375642	CO2XDlSMWzCrEyFOl	fe80::332e:5c13:6e02:5af8	5353	ff02::fb	5353	udp	0	0.259615	olamidespc._dosvc._tcp.local	1	C_INTERNET	255	*	0	NOERROR	T	F	F	F	0	olamidespc.local	120.000000	F
+#close	2025-05-22-01-42-53

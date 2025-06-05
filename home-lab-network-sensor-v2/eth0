@@ -1,0 +1,160 @@
+0.000000 <no filename>:0	Builtin Function called: __init_primary_bifs()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: have_spicy()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: getenv(var = 'ZEEK_DEFAULT_LISTEN_ADDRESS')
+0.000000 <no filename>:0	Function return: 
+0.000000 <no filename>:0	Builtin Function called: getenv(var = 'ZEEK_DEFAULT_LISTEN_ADDRESS')
+0.000000 <no filename>:0	Function return: 
+0.000000 <no filename>:0	Builtin Function called: getenv(var = 'CLUSTER_NODE')
+0.000000 <no filename>:0	Function return: 
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 <no filename>:0	Builtin Function called: getenv(var = 'ZEEK_DEFAULT_LISTEN_ADDRESS')
+0.000000 <no filename>:0	Function return: 
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 <no filename>:0	Builtin Function called: have_spicy()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: __init_secondary_bifs()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: double_to_time(d = '0.0')
+0.000000 <no filename>:0	Function return: 0.0
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 <no filename>:0	Builtin Function called: zeek_version()
+0.000000 <no filename>:0	Function return: 8.0.0-dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:118	function called: Version::parse(version_string = '8.0.0-dev.181')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:71		Builtin Function called: split_string1(str = '8.0.0-dev.181', re = '/^?(\.)$?/')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:71		Function return: [8, 0.0-dev.181]
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:72		Builtin Function called: to_count(str = '8', base = '10')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:72		Function return: 8
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:74		Builtin Function called: lstrip(str = '8.0.0-dev.181', chars = '1234567890')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:74		Function return: .0.0-dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:75		Builtin Function called: lstrip(str = '.0.0-dev.181', chars = '.')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:75		Function return: 0.0-dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:77		Builtin Function called: split_string1(str = '0.0-dev.181', re = '/^?(\.|-)$?/')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:77		Function return: [0, 0-dev.181]
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:78		Builtin Function called: to_count(str = '0', base = '10')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:78		Function return: 0
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:80		Builtin Function called: lstrip(str = '0.0-dev.181', chars = '1234567890')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:80		Function return: .0-dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:87		Builtin Function called: lstrip(str = '.0-dev.181', chars = '.')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:87		Function return: 0-dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:88		Builtin Function called: split_string1(str = '0-dev.181', re = '/^?(\.|-)$?/')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:88		Function return: [0, dev.181]
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:89		Builtin Function called: to_count(str = '0', base = '10')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:89		Function return: 0
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:90		Builtin Function called: lstrip(str = '0-dev.181', chars = '1234567890')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:90		Function return: -dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:93		Builtin Function called: gsub(str = '-dev.181', re = '/^?(-debug$)$?/', repl = '')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:93		Function return: -dev.181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:94		Builtin Function called: gsub(str = '-dev.181', re = '/^?(-(beta|rc|dev)[0-9]*)$?/', repl = '')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:94		Function return: .181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:95		Builtin Function called: find_last(str = '.181', re = '/^?(-[a-zA-Z0-9_\.]+$)$?/')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:95		Function return: 
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:105		Builtin Function called: lstrip(str = '.181', chars = '.')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:105		Function return: 181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:108		Builtin Function called: to_count(str = '181', base = '10')
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:108		Function return: 181
+0.000000 /usr/local/zeek/share/zeek/base/misc/version.zeek:117	Function return: [version_number=80000, major=8, minor=0, patch=0, commit=181, beta=F, debug=F, localversion=, version_string=8.0.0-dev.181]
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:296	function called: Telemetry::register_counter_family(opts = '[prefix=zeek, name=telemetry_counter_usage_error, unit=, help_text=This counter is returned when label usage for counters is wrong. Check reporter.log if non-zero., label_names=[], is_total=<uninitialized>, bounds=<uninitialized>, metric_type=<uninitialized>]')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:294		Builtin Function called: Telemetry::__counter_family(prefix = 'zeek', name = 'telemetry_counter_usage_error', labels = '[]', helptext = 'This counter is returned when label usage for counters is wrong. Check reporter.log if non-zero.', unit = '')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:294		Function return: <opaque of CounterMetricFamilyVal>
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:295	Function return: [__family=<opaque of CounterMetricFamilyVal>, __labels=[]]
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:355	function called: Telemetry::register_gauge_family(opts = '[prefix=zeek, name=telemetry_gauge_usage_error, unit=, help_text=This gauge is returned when label usage for gauges is wrong. Check reporter.log if non-zero., label_names=[], is_total=<uninitialized>, bounds=<uninitialized>, metric_type=<uninitialized>]')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:353		Builtin Function called: Telemetry::__gauge_family(prefix = 'zeek', name = 'telemetry_gauge_usage_error', labels = '[]', helptext = 'This gauge is returned when label usage for gauges is wrong. Check reporter.log if non-zero.', unit = '')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:353		Function return: <opaque of GaugeMetricFamilyVal>
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:354	Function return: [__family=<opaque of GaugeMetricFamilyVal>, __labels=[]]
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:424	function called: Telemetry::register_histogram_family(opts = '[prefix=zeek, name=telemetry_histogram_usage_error, unit=, help_text=This histogram is returned when label usage for histograms is wrong. Check reporter.log if non-zero., label_names=[], is_total=<uninitialized>, bounds=[1.0], metric_type=<uninitialized>]')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:422		Builtin Function called: Telemetry::__histogram_family(prefix = 'zeek', name = 'telemetry_histogram_usage_error', labels = '[]', bounds = '[1.0]', helptext = 'This histogram is returned when label usage for histograms is wrong. Check reporter.log if non-zero.', unit = '')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:422		Function return: <opaque of HistogramMetricFamilyVal>
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:423	Function return: [__family=<opaque of HistogramMetricFamilyVal>, __labels=[]]
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:355	function called: Telemetry::register_gauge_family(opts = '[prefix=zeek, name=version_info, unit=, help_text=The Zeek version, label_names=[version_number, major, minor, patch, commit, beta, debug, version_string], is_total=<uninitialized>, bounds=<uninitialized>, metric_type=<uninitialized>]')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:353		Builtin Function called: Telemetry::__gauge_family(prefix = 'zeek', name = 'version_info', labels = '[version_number, major, minor, patch, commit, beta, debug, version_string]', helptext = 'The Zeek version', unit = '')
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:353		Function return: <opaque of GaugeMetricFamilyVal>
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/telemetry/main.zeek:354	Function return: [__family=<opaque of GaugeMetricFamilyVal>, __labels=[version_number, major, minor, patch, commit, beta, debug, version_string]]
+0.000000 <no filename>:0	Builtin Function called: have_spicy()
+0.000000 <no filename>:0	Function return: T
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 <no filename>:0	Builtin Function called: have_spicy_analyzers()
+0.000000 <no filename>:0	Function return: T
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:457	function called: Cluster::local_node_type()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446		function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445		Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:451	Function return: Cluster::NONE
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:446	function called: Cluster::is_enabled()
+0.000000 /usr/local/zeek/share/zeek/base/frameworks/cluster/main.zeek:445	Function return: F
+0.000000 <no filename>:0	Builtin Function called: have_spicy_analyzers()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: have_spicy_analyzers()
+0.000000 <no filename>:0	Function return: T
+0.000000 <no filename>:0	Builtin Function called: have_spicy_analyzers()
+0.000000 <no filename>:0	Function return: T
+0.000000 /usr/local/zeek/share/zeek/base/misc/find-filtered-trace.zeek:29	function called: FilteredTraceDetection::should_detect()
+0.000000 /usr/local/zeek/share/zeek/base/misc/find-filtered-trace.zeek:18		Builtin Function called: zeek_args()
+0.000000 /usr/local/zeek/share/zeek/base/misc/find-filtered-trace.zeek:18		Function return: [/usr/local/zeek/bin/zeek, -t, eth0]
+0.000000 /usr/local/zeek/share/zeek/base/misc/find-filtered-trace.zeek:28	Function return: F
